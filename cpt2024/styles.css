@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #0077cc;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    margin-bottom: 0.1rem;
+}
+
+header h3 {
+    margin-top: 0.1rem; /* Reduces space above the subtitle */
+    font-size: 1rem;
+    font-weight: 400;
+    color: #e0e0e0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0rem 0;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: #0077cc;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+}
+
+.contact a.button {
+    display: inline-block;
+    background: #0077cc;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.contact a.button:hover {
+    background: #005fa3;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+header .subtitle-line {
+    width: 80%;
+    margin: .3rem auto;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.university {
+    padding: 0.2rem 0.5rem; /* Adds padding inside the background */
+    margin-left: 2.2rem; /* Indents the university name */
+    background-color: #f4f4f4; /* Optional: Highlight with a background color */
+    border-radius: 5px; /* Adds rounded corners */
+    display: inline-block; /* Ensures proper spacing for inline text */
+    font-style: italic; /* Optional: Adds a stylish italic font for emphasis */
+}
